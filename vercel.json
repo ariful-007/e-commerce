@@ -1,0 +1,42 @@
+{
+  "routes":[
+    {
+      "src":"/",
+      "dest":"/"
+    },
+    {
+      "src":"/home",
+      "dest":"/"
+    },
+    {
+      "src":"/about",
+      "dest":"/"
+    },
+    {
+      "src":"/shop",
+      "dest":"/"
+    },
+    {
+      "src":"/blog",
+      "dest":"/"
+    },
+    {
+      "src":"/contact",
+      "dest":"/"
+    },
+    {
+      "src":"/shop/:id",
+      "dest":"/"
+    },
+    {
+      "src":"/registration",
+      "dest":"/"
+    },
+    {
+      "src":"/login",
+      "dest":"/"
+    }
+  ]
+    
+  
+}

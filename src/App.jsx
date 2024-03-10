@@ -10,9 +10,6 @@ import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
 import SingelProduct from "./Shop/SingelProduct";
 
-
-
-
 import 'swiper/css';
 // bootstrap css
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,11 +24,11 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main />,
+      element: <Main/>,
       children: [
         {
           path: "/home",
-          element: <Home />,
+          element: <Home/>,
         },
         {
           path: "/about",
@@ -43,15 +40,15 @@ function App() {
         },
         {
           path: "/blog",
-          element: <Blog />,
+          element: <Blog/>,
         },
         {
           path: "/contact",
-          element: <Contact />,
+          element: <Contact/>,
         },
         {
           path: "shop/:id",
-          element: <SingelProduct />,
+          element: <SingelProduct/>,
         },
       ],
     },
